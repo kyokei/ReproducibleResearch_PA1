@@ -3,7 +3,7 @@ Peer Assessment 1
 
 ### Loading and preprocessing the data
 
-```{r setoptions, echo=FALSE, results="hide"}
+```{r setoptions, results="hide"}
 setInternet2(use = TRUE)
 Sys.setlocale("LC_ALL", "us")
 opts_chunk$set(fig.width=7, fig.height=6,

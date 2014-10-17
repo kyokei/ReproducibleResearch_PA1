@@ -183,6 +183,12 @@ hljs.initHighlightingOnLoad();
 
 <h3>Loading and preprocessing the data</h3>
 
+<pre><code class="r">setInternet2(use = TRUE)
+Sys.setlocale(&quot;LC_ALL&quot;, &quot;us&quot;)
+opts_chunk$set(fig.width = 7, fig.height = 6, echo = TRUE, warning = FALSE, 
+    message = FALSE)
+</code></pre>
+
 <pre><code class="r">fileUrl &lt;- &quot;https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip&quot;
 temp &lt;- tempfile()
 download.file(fileUrl, temp)
